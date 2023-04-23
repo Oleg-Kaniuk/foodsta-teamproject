@@ -1,0 +1,50 @@
+:root {
+  --primary-text-color: #2c2c2c;
+  --secondary-text-color: #7eb101;
+  --primary-accent-color: #bbf330;
+  --secondary-accent-color: #ffe450;
+  --main-background-color: #fefefe;
+  --primary-font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--main-background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
