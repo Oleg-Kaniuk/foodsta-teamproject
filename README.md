@@ -1,1 +1,1 @@
-# foodsta-teamproject
+# ЗАВТРА ТУТ ЗАКИНУ ЗАГАЛЬНІ КЛАСИ ДЛЯ FOODSTA
