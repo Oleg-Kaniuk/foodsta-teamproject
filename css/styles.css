@@ -32,6 +32,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .list {
@@ -41,10 +42,49 @@ img {
   text-decoration: none;
 }
 
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
 .container {
   width: 1280px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.modal-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.54;
+  border-radius: 30px;
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 42px;
+
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--primary-text-color);
+}
+
+.section-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.39;
+
+  color: var(--primary-text-color);
 }
