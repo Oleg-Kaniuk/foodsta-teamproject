@@ -91,48 +91,30 @@ address {
 
 /--FOOTER--/ 
 
- 
-.footer {
-  display:flex;
-  
-}
 .container-footer {
-  
     padding-top: 100px;
     padding-bottom: 100px;
-    outline: 1px solid tomato;
-    
-}
-.footer-first-part {
-  width:640px;
 }
 
 .logotype {
- 
- width: 66px;
+
+  width: 66px;
  height: 52px;
  margin-bottom: 129px;
  margin-right: 148px;
- margin-left: 0;
- 
- }
+}
 
 .nav-menu-footer {
   display: flex;
-  justify-content: center;
-
 }
 
 .menu {
 display: flex;
 gap: 28px;
 margin-top: 18px;
-
-
 }
 .menu-link {
-  display: block;
-  font-weight: 400;
+   font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     color: var(--primary-text-color);
@@ -140,18 +122,11 @@ margin-top: 18px;
 .terms-list {
   display: flex;
   gap: 20px;
-  
-  
+ }
 
-
-}
-.terms-item {
-  
-  
-}
 .terms-link {
   
-  font-weight: 400;
+    font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
     color: var(--secondary-text-color);
