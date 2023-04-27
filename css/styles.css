@@ -89,32 +89,32 @@ address {
   color: var(--primary-text-color);
 }
 
-/--FOOTER--/ 
+<!-- Footer Частина 1  ОКСАНА М. -->
 
-.container-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+.footer-container {
+  display: flex;
+ justify-content: center;
+ gap: 30px;
 }
-
-.logotype {
-
-  width: 66px;
+.footer-primary-part {
+  width: 640px;
+}
+.nav-menu-footer {
+  display: flex;
+  
+}
+.logo-image {
+ width: 66px;
  height: 52px;
  margin-bottom: 129px;
  margin-right: 148px;
 }
-
-.nav-menu-footer {
-  display: flex;
-}
-
 .menu {
 display: flex;
 gap: 28px;
 margin-top: 18px;
 }
 .menu-link {
-   font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     color: var(--primary-text-color);
@@ -125,11 +125,10 @@ margin-top: 18px;
  }
 
 .terms-link {
-  
-    font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
     color: var(--secondary-text-color);
+    
 }
 
 
