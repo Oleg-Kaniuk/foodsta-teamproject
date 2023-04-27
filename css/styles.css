@@ -88,3 +88,55 @@ address {
 
   color: var(--primary-text-color);
 }
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    gap:30px;
+    border-top: 1px solid var(--main-background-color)  ;
+    box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
+}
+.footer-primary-part {
+    width: 640px;
+}
+
+.menu-nav-footer {
+    display: flex;
+}
+
+.logo-image {
+   width: 66px;
+   height: 52px;
+   margin-right: 148px;
+   margin-bottom: 129px;
+}
+
+.menu {
+    display: flex;
+    gap: 28px;
+    margin-top: 18px;;
+}
+
+.menu-link {
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-text-color);
+}
+
+.terms-list  {
+    display: flex;
+    gap: 20px;
+}
+
+.terms-link {
+   font-size: 12px;
+   line-height: 1.16;
+   color: var(--secondary-text-color);
+}
