@@ -94,34 +94,33 @@ address {
   | Footer
   |============================
 */
-
-.footer-container {
+.footer-section {
     padding-top: 100px;
     padding-bottom: 100px;
-    display: flex;
-    gap:30px;
-    border-top: 1px solid var(--main-background-color)  ;
-    box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
 }
-.footer-primary-part {
-    width: 640px;
+
+.footer-container {
+    display: flex;
 }
 
 .menu-nav-footer {
     display: flex;
+    margin-bottom: 147px;
 }
 
 .logo-image {
-   width: 66px;
-   height: 52px;
    margin-right: 148px;
-   margin-bottom: 129px;
 }
 
 .menu {
     display: flex;
     gap: 28px;
-    margin-top: 18px;;
+}
+
+.menu-item {
+  display: inline-block;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .menu-link {
