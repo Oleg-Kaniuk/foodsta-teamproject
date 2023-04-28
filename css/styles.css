@@ -68,6 +68,7 @@ address {
 }
 
 .section-title {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 42px;
 
@@ -87,4 +88,42 @@ address {
   line-height: 1.39;
 
   color: var(--primary-text-color);
+}
+
+/* offerings Oksana */
+.offerings-container {
+  display: flex;
+  align-items: center;
+}
+.offerings {
+  margin-left: 90px;
+}
+.offerings-propose {
+  max-width: 500px;
+}
+.offerings-list {
+  display: flex;
+  gap: 67px;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+.offerings-item {
+  width: 253px;
+}
+.offerings-text {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.offerings-button {
+  width: 106px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 2px solid var(--secondary-text-color);
+  border-radius: 30px;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
 }
