@@ -90,7 +90,6 @@ address {
   color: var(--primary-text-color);
 }
 
-
 /* offerings Oksana */
 
 .offerings-container {
@@ -128,7 +127,8 @@ address {
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
-  
+}
+
 /*
   |============================
   | Footer
