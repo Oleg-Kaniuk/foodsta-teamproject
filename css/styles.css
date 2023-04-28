@@ -96,32 +96,39 @@ address {
 */
 
 .footer-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-container {
-    display: flex;
+  display: flex;
 }
 
 .menu-nav-footer {
-    display: flex;
-    margin-bottom: 147px;
+  display: flex;
+  /* margin-bottom: 147px; */
+  margin-bottom: 129px;
 }
 
 .logo-image {
-   margin-right: 148px;
+  margin-right: 148px;
 }
 
 .menu {
-    display: flex;
-    gap: 28px;
+  display: flex;
+  gap: 28px;
 }
 
-.menu-item {
+/* .menu-item {
   display: inline-block;
   padding-top: 18px;
   padding-bottom: 18px;
+} */
+
+.menu-link {
+  display: inline-block;
+  padding-bottom: 18px;
+  padding-top: 18px;
 }
 
 .menu-link {
@@ -141,7 +148,7 @@ address {
   color: var(--secondary-text-color);
 }
 
-/* footer ilya */
+/* footer ilya
 .footer-title.section-title {
   font-style: normal;
   font-weight: 500;
@@ -181,4 +188,4 @@ address {
 }
 .paragraph-footer.section-text {
   margin-left: auto;
-}
+} */
