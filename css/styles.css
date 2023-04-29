@@ -48,3 +48,54 @@ img {
   padding-left: 16px;
   padding-right: 16px;
 }
+/* section HERO */
+.hero-section {
+  color: #2c2c2c;
+}
+.hero-div {
+  display: flex;
+}
+.group-79 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.hero-title {
+  margin: 0;
+  padding: 0;
+  width: 502.42px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 28px;
+}
+.hero-parag {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 40px;
+  max-width: 510px;
+}
+.hero-button {
+  background: #bbf330;
+  border-radius: 30px;
+  border: none;
+  padding: 6px 18px;
+}
+.title-button {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+}
+.group-80 {
+  box-sizing: border-box;
+  width: 580px;
+  height: 580px;
+}
+.hero-img {
+  width: 528px;
+  border: 26px solid #ffe550;
+  border-radius: 269px;
+  align-items: center;
+}
