@@ -32,6 +32,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .list {
@@ -41,6 +42,15 @@ img {
   text-decoration: none;
 }
 
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
 .container {
   width: 1280px;
   margin-left: auto;
@@ -48,7 +58,9 @@ img {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 /* section HERO */
+
 .hero-section {
   color: #2c2c2c;
 }
@@ -98,4 +110,136 @@ img {
   border: 26px solid #ffe550;
   border-radius: 269px;
   align-items: center;
+
+.modal-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.54;
+  border-radius: 30px;
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 42px;
+
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--primary-text-color);
+}
+
+.section-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.39;
+
+  color: var(--primary-text-color);
+}
+
+
+/* offerings Oksana */
+
+.offer-section {
+  padding-top: 99px;
+  padding-bottom: 79px;
+}
+.offer-container {
+  display: flex;
+}
+.offerings {
+  margin-left: 90px;
+}
+.offer-subtitle {
+  max-width: 500px;
+}
+.offerings-list {
+  display: flex;
+  gap: 67px;
+  margin-top: 40px;
+
+  margin-bottom: 32px;
+}
+.offering-item {
+  width: 253px;
+}
+
+.offer-text {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.offer-button {
+  padding: 10px 22px;
+  min-width: 106px;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.53;
+
+  border: 2px solid var(--secondary-text-color);
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.offer-button:hover,
+.offer-button:focus {
+  border: 2px solid transparent;
+  background-color: var(--primary-accent-color);
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+.footer-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.menu-nav-footer {
+  display: flex;
+  margin-bottom: 129px;
+}
+
+.logo-image {
+  margin-right: 148px;
+}
+
+.menu {
+  display: flex;
+  gap: 28px;
+}
+
+.menu-link {
+  display: inline-block;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+
+.menu-link {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+}
+
+.terms-list {
+  display: flex;
+  gap: 20px;
+}
+
+.terms-link {
+  font-size: 12px;
+  line-height: 1.16;
+  color: var(--secondary-text-color);
 }
