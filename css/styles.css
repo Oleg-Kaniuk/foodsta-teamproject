@@ -110,6 +110,7 @@ address {
   border: 26px solid #ffe550;
   border-radius: 269px;
   align-items: center;
+}
 
 .modal-btn {
   font-weight: 500;
@@ -141,7 +142,6 @@ address {
 
   color: var(--primary-text-color);
 }
-
 
 /* offerings Oksana */
 
