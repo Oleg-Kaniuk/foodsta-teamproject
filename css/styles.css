@@ -62,12 +62,15 @@ address {
 /* section HERO */
 
 .hero-section {
+  padding-top: 14px;
+  padding-bottom: 14px;
   color: #2c2c2c;
 }
 .hero-div {
   display: flex;
 }
 .group-79 {
+  margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -100,16 +103,11 @@ address {
   font-size: 13px;
   line-height: 150%;
 }
-.group-80 {
-  box-sizing: border-box;
-  width: 580px;
-  height: 580px;
-}
+
 .hero-img {
-  width: 528px;
+  box-sizing: border-box;
   border: 26px solid #ffe550;
   border-radius: 269px;
-  align-items: center;
 }
 
 .modal-btn {
