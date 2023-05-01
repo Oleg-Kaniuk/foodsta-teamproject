@@ -74,7 +74,7 @@ address {
   margin-top: auto;
   margin-bottom: auto;
 }
-.hero-title {
+.main-title {
   margin: 0;
   padding: 0;
   width: 502.42px;
@@ -83,7 +83,7 @@ address {
   line-height: 120%;
   margin-bottom: 28px;
 }
-.hero-parag {
+.section-text {
   margin: 0;
   padding: 0;
   font-weight: 400;
@@ -92,7 +92,7 @@ address {
   margin-bottom: 40px;
   max-width: 510px;
 }
-.hero-button {
+.modal-btn {
   background: #bbf330;
   border-radius: 30px;
   border: none;
@@ -104,7 +104,7 @@ address {
   line-height: 150%;
 }
 
-.hero-img {
+.hero-image {
   box-sizing: border-box;
   border: 26px solid #ffe550;
   border-radius: 269px;
