@@ -1,15 +1,15 @@
 :root {
-  --primary-text-color: #2c2c2c;
-  --secondary-text-color: #7eb101;
-  --primary-accent-color: #bbf330;
-  --secondary-accent-color: #ffe450;
-  --main-background-color: #fefefe;
-  --primary-font: "Roboto", sans-serif;
+	--primary-text-color: #2c2c2c;
+	--secondary-text-color: #7eb101;
+	--primary-accent-color: #bbf330;
+	--secondary-accent-color: #ffe450;
+	--main-background-color: #fefefe;
+	--primary-font: "Roboto", sans-serif;
 }
 
 body {
-  font-family: var(--primary-font);
-  background-color: var(--main-background-color);
+	font-family: var(--primary-font);
+	background-color: var(--main-background-color);
 }
 
 h1,
@@ -19,174 +19,220 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
 }
 
 img {
-  display: block;
-  max-width: 100%;
+	display: block;
+	max-width: 100%;
 }
 
 .list {
-  list-style: none;
+	list-style: none;
 }
 .link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 button {
-  font-family: inherit;
-  cursor: pointer;
+	font-family: inherit;
+	cursor: pointer;
 }
 
 address {
-  font-style: normal;
+	font-style: normal;
 }
 
 .container {
-  width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
 .modal-btn {
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 1.54;
-  border-radius: 30px;
-  color: var(--primary-text-color);
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 1.54;
+	border-radius: 30px;
+	color: var(--primary-text-color);
 }
 
 .section-title {
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 42px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 42px;
 
-  color: var(--primary-text-color);
+	color: var(--primary-text-color);
 }
 
 .section-text {
-  font-size: 16px;
-  line-height: 1.5;
+	font-size: 16px;
+	line-height: 1.5;
 
-  color: var(--primary-text-color);
+	color: var(--primary-text-color);
 }
 
 .section-subtitle {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.39;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.39;
 
-  color: var(--primary-text-color);
+	color: var(--primary-text-color);
 }
 
 /* offerings Oksana */
 
 .offer-section {
-  padding-top: 99px;
-  padding-bottom: 79px;
+	padding-top: 99px;
+	padding-bottom: 79px;
 }
 .offer-container {
-  display: flex;
+	display: flex;
 }
 .offerings {
-  margin-left: 90px;
+	margin-left: 90px;
 }
 .offer-subtitle {
-  max-width: 500px;
+	max-width: 500px;
 }
 .offerings-list {
-  display: flex;
-  gap: 67px;
-  margin-top: 40px;
+	display: flex;
+	gap: 67px;
+	margin-top: 40px;
 
-  margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 .offering-item {
-  width: 253px;
+	width: 253px;
 }
 
 .offer-text {
-  margin-top: 16px;
-  font-size: 14px;
-  line-height: 1.5;
+	margin-top: 16px;
+	font-size: 14px;
+	line-height: 1.5;
 }
 .offer-button {
-  padding: 10px 22px;
-  min-width: 106px;
+	padding: 10px 22px;
+	min-width: 106px;
 
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 1.53;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 1.53;
 
-  border: 2px solid var(--secondary-text-color);
-  border-radius: 30px;
-  background-color: #ffffff;
+	border: 2px solid var(--secondary-text-color);
+	border-radius: 30px;
+	background-color: #ffffff;
 }
 .offer-button:hover,
 .offer-button:focus {
-  border: 2px solid transparent;
-  background-color: var(--primary-accent-color);
+	border: 2px solid transparent;
+	background-color: var(--primary-accent-color);
 }
 
-/**
+/*
+  |============================
+  | Favorites Svitlana
+  |============================
+*/
+
+.favorites {
+	padding: 100px 0;
+}
+.favorites-title {
+	text-align: center;
+	line-height: 1.17;
+}
+.favorites-text {
+	line-height: 1.19;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.favorites-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 32px;
+	column-gap: 32px;
+}
+.favorites-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	padding: 20px 20px;
+	border: 14px solid var(--secondary-accent-color);
+}
+.favorites-list:hover,
+.favorites-list:focus {
+	border: 14px solid var(--primary-accent-color);
+}
+.favorit-link {
+	display: block;
+}
+.favorites-pic {
+	border-radius: 50%;
+}
+
+/*
   |============================
   | Footer
   |============================
 */
 
 .footer-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .footer-container {
-  display: flex;
+	display: flex;
 }
 
 .menu-nav-footer {
-  display: flex;
-  margin-bottom: 129px;
+	display: flex;
+	margin-bottom: 129px;
 }
 
 .logo-image {
-  margin-right: 148px;
+	margin-right: 148px;
 }
 
 .menu {
-  display: flex;
-  gap: 28px;
+	display: flex;
+	gap: 28px;
 }
 
 .menu-link {
-  display: inline-block;
-  padding-bottom: 18px;
-  padding-top: 18px;
+	display: inline-block;
+	padding-bottom: 18px;
+	padding-top: 18px;
 }
 
 .menu-link {
-  font-size: 14px;
-  line-height: 1.14;
-  color: var(--primary-text-color);
+	font-size: 14px;
+	line-height: 1.14;
+	color: var(--primary-text-color);
 }
 
 .terms-list {
-  display: flex;
-  gap: 20px;
+	display: flex;
+	gap: 20px;
 }
 
 .terms-link {
-  font-size: 12px;
-  line-height: 1.16;
-  color: var(--secondary-text-color);
+	font-size: 12px;
+	line-height: 1.16;
+	color: var(--secondary-text-color);
 }
