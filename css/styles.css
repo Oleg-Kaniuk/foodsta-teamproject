@@ -68,6 +68,7 @@ address {
 }
 
 .section-title {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 42px;
 
@@ -89,39 +90,138 @@ address {
   color: var(--primary-text-color);
 }
 
-/**
+/* offerings Oksana */
+
+.offer-section {
+  padding-top: 99px;
+  padding-bottom: 79px;
+}
+.offer-container {
+  display: flex;
+}
+.offerings {
+  margin-left: 90px;
+}
+.offer-subtitle {
+  max-width: 500px;
+}
+.offerings-list {
+  display: flex;
+  gap: 67px;
+  margin-top: 40px;
+
+  margin-bottom: 32px;
+}
+.offering-item {
+  width: 253px;
+}
+
+.offer-text {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.offer-button {
+  padding: 10px 22px;
+  min-width: 106px;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.53;
+
+  border: 2px solid var(--secondary-text-color);
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.offer-button:hover,
+.offer-button:focus {
+  border: 2px solid transparent;
+  background-color: var(--primary-accent-color);
+}
+
+/*
+
+/*
+  |============================
+  | Favorites Svitlana
+  |============================
+*/
+
+.favorites {
+	padding: 100px 0;
+}
+.favorites-title {
+	text-align: center;
+	line-height: 1.17;
+}
+.favorites-text {
+	line-height: 1.19;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.favorites-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 32px;
+	column-gap: 32px;
+}
+.favorites-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	padding: 24px 23px 24px 24px;
+	border: 16px solid #FFE550;
+}
+.favorites-list:hover,
+.favorites-list:focus {
+	border: 16px solid var(--primary-accent-color);
+}
+.favorit-link {
+	display: block;
+}
+.favorites-pic {
+	border-radius: 50%;
+}
+
+/*
+
+
   |============================
   | Footer
   |============================
 */
 
-.footer-container {
+.footer-section {
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
-  gap: 30px;
-  border-top: 1px solid var(--main-background-color);
-  box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
 }
-.footer-primary-part {
-  width: 640px;
+
+.footer-container {
+  display: flex;
 }
 
 .menu-nav-footer {
   display: flex;
+  margin-bottom: 129px;
 }
 
 .logo-image {
-  width: 66px;
-  height: 52px;
   margin-right: 148px;
-  margin-bottom: 129px;
 }
 
 .menu {
   display: flex;
   gap: 28px;
-  margin-top: 18px;
+}
+
+.menu-link {
+  display: inline-block;
+  padding-bottom: 18px;
+  padding-top: 18px;
 }
 
 .menu-link {
@@ -140,7 +240,7 @@ address {
   line-height: 1.16;
   color: var(--secondary-text-color);
 }
-
+ 
 /* footer ilya */
 .footer-title.section-title {
   font-style: normal;
