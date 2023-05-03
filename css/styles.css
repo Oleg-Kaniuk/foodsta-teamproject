@@ -190,6 +190,8 @@ address {
 /* Customers */
 .customers {
   background-color: #ffe550;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 .text-customers {
   margin-bottom: 32px;
@@ -200,11 +202,11 @@ address {
 }
 
 .customers-item {
+  justify-content: space-between;
+  max-width: 501px;
+  margin-right: 123px;
+  border-radius: 0 30px 30px 30px;
   background-color: var(--main-background-color);
-  width: 501px;
-}
-.customers-item:nth-child(1) {
-  margin-right: 139px;
 }
 
 .blok-item-customers {
