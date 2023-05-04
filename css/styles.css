@@ -210,7 +210,7 @@ address {
 }
 
 .blok-item-customers {
-  margin: 14px;
+  padding: 14px;
 }
 .customers-section-text {
   font-size: 18px;
@@ -221,9 +221,8 @@ address {
 }
 .person-customers {
   display: flex;
-
-  margin-bottom: 16px;
 }
+
 .name-person > h3 {
   margin-bottom: 2px;
   font-weight: 500;
@@ -231,7 +230,6 @@ address {
   line-height: 1.5;
 }
 .name-person > p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
 }
