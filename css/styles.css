@@ -109,8 +109,9 @@ address {
   margin-bottom: 40px;
 }
 .modal-btn {
-  background: #bbf330;
+  background: var(--primary-accent-color);
   padding: 6px 18px;
+  border: none;
 }
 .modal-btn:hover,
 .modal-btn:focus {
