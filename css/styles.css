@@ -89,7 +89,38 @@ address {
 
   color: var(--primary-text-color);
 }
-
+/* hero dima */
+.hero-div {
+  display: flex;
+  align-items: center;
+}
+.hero-div-info {
+  width: 512px;
+  margin-right: 129px;
+}
+.main-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+.section-text {
+  margin-bottom: 40px;
+}
+.modal-btn {
+  background: var(--primary-accent-color);
+  padding: 6px 18px;
+  border: none;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--secondary-accent-color);
+}
+.hero-image {
+  border: 26px solid #ffe550;
+  border-radius: 50%;
+}
 /* offerings Oksana */
 
 .offer-section {
