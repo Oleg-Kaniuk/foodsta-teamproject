@@ -251,34 +251,40 @@ address {
   margin-bottom: 12px;
 }
 .footer-link {
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: var(--secondary-text-color);
   text-decoration: underline;
 }
 .footer-modal-btn {
-  width: 103px;
+  min-width: 103px;
   height: 42px;
-  text-align: center;
+  padding: 11px 22px;
   background-color: #ffffff;
   color: var(--primary-text-color);
-  border: 0.854167px solid var(--secondary-text-color);
+  border: 2px solid var(--secondary-text-color);
   border-radius: 30px;
   line-height: 20px;
   margin-left: auto;
   margin-bottom: 12px;
 }
+.footer-modal-btn:hover,
+.footer-modal-btn:focus{
+  background-color: var(--primary-accent-color);
+}
 .footer-subscribe {
-  width: 411px;
+  width: 395px;
   margin-left: auto;
   display: flex;
   flex-direction: column;
 }
 .text-footer.section-text {
-  margin-bottom: 80px;
+     font-size: 12px;
+     line-height: 14px;
+     margin-bottom: 80px;
 }
 .paragraph-footer.section-text {
-  margin-left: auto;
+   font-size: 12px;
+   line-height: 14px;
+   margin-left: auto;
 }
