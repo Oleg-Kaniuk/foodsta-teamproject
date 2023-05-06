@@ -318,6 +318,7 @@ address {
 .footer-modal-btn:focus {
   background-color: var(--primary-accent-color);
 }
+
 .footer-subscribe {
   width: 395px;
   margin-left: auto;
