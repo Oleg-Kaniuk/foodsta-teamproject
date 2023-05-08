@@ -89,6 +89,49 @@ address {
 
   color: var(--primary-text-color);
 }
+/**
+  |============================
+  | Header Саша
+  |============================
+*/
+.header-section {
+  width: 1358px;
+  height: 496px;
+  left: -71px;
+  top: -207px;
+
+}
+/* Rectangle 705 */
+.header-container {
+width: 1358px;
+height: 72px;
+left: -71px;
+top: 4px;
+background: var(--main-background-color);
+box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+}
+.menu-nav-header {
+  position: absolute;
+  width: 319px;
+  height: 17px;
+  left: 833px;
+  top: 11px;
+}
+.logo-image-heder {
+position: absolute;
+width: 66px;
+height: 52px;
+left: 34px;
+top: 20px;
+}
+.modal-btn-header {
+  position: absolute;
+width: 98px;
+height: 32px;
+left: 1166px;
+top: 20px;
+}
+
 /* hero dima */
 .hero-div {
   display: flex;
@@ -310,6 +353,13 @@ address {
   line-height: 1.14;
   color: var(--primary-text-color);
 }
+.menu-link-accent {
+  font-weight: 700;
+  color: var(--primary-accent-color);
+  font-size: 14px;
+  line-height: 1,14;
+  text-decoration-line: underline;
+  }
 
 .terms-list {
   display: flex;
