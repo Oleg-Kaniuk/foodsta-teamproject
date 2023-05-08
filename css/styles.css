@@ -5,6 +5,7 @@
   --secondary-accent-color: #ffe450;
   --main-background-color: #fefefe;
   --primary-font: "Roboto", sans-serif;
+  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
