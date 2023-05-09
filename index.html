@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -29,7 +31,7 @@
         <li class="menu-item"><a class="menu-link link" href="">Contact</a></li>
       </ul>
     </nav>
-    <button  class="modal-btn modal-btn-header" type="button">Order Now</button>
+    <button  class="modal-btn modal-btn-header" type="button" data-modal-open>Order Now</button>
   </div>
   </header>
 
@@ -47,10 +49,10 @@
             enjoy a hassle-free and delicious meal from the comfort of your own
             home.
           </p>
-          <button class="modal-btn" type="button">Order Now</button>
+          <button class="modal-btn" type="button" data-modal-open>Order Now</button>
         </div>
         <div class="hero-div-img">
-          <img class="hero-image" src="./images/hero.jpg" alt="error foto" />
+          <img class="hero-image" src="./images/hero/hero.jpg" alt="error foto" />
         </div>
       </div>
     </section>
@@ -59,7 +61,7 @@
 
     <section class="offer-section">
       <div class="container offer-container">
-        <div> <img class="offer-image" src="./images/apple.jpg" alt="aplle" width="396" height="502" /></div>
+        <div> <img class="offer-image" src="./images/offerings/apple.jpg" alt="aplle" width="396" height="502" /></div>
         <div class="offerings">
           <div class="offer-subtitle">
             <h2 class="section-title">What’s Special About Our Offerings</h2>
@@ -87,7 +89,7 @@
             </li>
           </ul>
 
-          <button class="offer-button" type="button">Order Now</button>
+          <button class="offer-button" type="button" data-modal-open>Order Now</button>
         </div>
       </div>
     </section>
@@ -170,7 +172,7 @@
 
 
 
-    <!-- Subscribe СЕРГІЙ-->
+    <!-- Subscribe ІРИНА-->
 
     <section>
       <h2 class="section-title">Subscribe To Get Special Offers</h2>
@@ -178,7 +180,8 @@
         Order now and receive 10% off your first meal with Enjoy Your Favorite
         Food From Anywhere.
       </p>
-      <img src="./images/banana.jpg" alt="banana" width="608" height="266" />
+      <button class="modal-btn" type="button"></button>
+      <img class="subscribe-image" src="./images/subscribe/banana.jpg" alt="banana" width="608" height="266" />
     </section>
   </main>
 
@@ -220,6 +223,27 @@
     </div>
 
   </footer>
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-close-btn" type="button" data-modal-close>
+        <svg class="modal-close-btn-icon">
+          <use href=""></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- MODAL SCRIPT -->
+
+  <script src="./js/modal.js"></script>
+
+  <!-- SLIDER SCRIPT -->
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/slider.js"></script>
 
 </body>
 
