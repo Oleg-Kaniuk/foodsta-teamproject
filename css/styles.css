@@ -125,14 +125,50 @@ address {
 /* offerings Oksana */
 
 .offer-section {
+  margin-top: -250px;
   padding-top: 99px;
   padding-bottom: 79px;
 }
 .offer-container {
   display: flex;
+
+  padding-top: 230px;
+  /* ось цей падінг 78 на око а колт його прибираєш то backraund не правильно показує */
+  padding-bottom: 78px;
+  background-image: url(../images/offerings/offerings-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1280px 824px;
 }
 .offerings {
   margin-left: 90px;
+}
+/* 
+           APPLE!!!!!!!!!!!! 
+           
+=*/
+.thumba {
+  position: relative;
+  padding-bottom: 58px;
+  width: 502px;
+  height: 502px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.offer-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 396px;
+  height: 502px;
+}
+.offer-image {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(10%);
+  transform: translateY(-10%); */
 }
 .offer-subtitle {
   max-width: 500px;
