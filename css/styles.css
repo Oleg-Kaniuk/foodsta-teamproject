@@ -96,41 +96,32 @@ address {
   |============================
 */
 .header-section {
-  width: 1358px;
-  height: 496px;
-  left: -71px;
-  top: -207px;
+  background: var(--main-background-color);
+  padding-bottom: 14px;
 
 }
-/* Rectangle 705 */
 .header-container {
-width: 1358px;
-height: 72px;
-left: -71px;
-top: 4px;
-background: var(--main-background-color);
-box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+display: flex;
+align-items: center;
 }
-.menu-nav-header {
-  position: absolute;
-  width: 319px;
-  height: 17px;
-  left: 833px;
-  top: 11px;
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.menu-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 .logo-image-heder {
-position: absolute;
-width: 66px;
-height: 52px;
-left: 34px;
-top: 20px;
+margin-left: 16px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 .modal-btn-header {
-  position: absolute;
-width: 98px;
-height: 32px;
-left: 1166px;
-top: 20px;
+margin-right: 16px;
+
 }
 
 /* hero dima */
