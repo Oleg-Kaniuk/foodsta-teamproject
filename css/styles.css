@@ -125,14 +125,36 @@ address {
 /* offerings Oksana */
 
 .offer-section {
+  margin-top: -260px;
   padding-top: 99px;
   padding-bottom: 79px;
 }
 .offer-container {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 230px;
+  padding-bottom: 78px;
+  background-image: url(../images/offerings/offerings-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .offerings {
   margin-left: 90px;
+}
+.offer-thumba {
+  position: relative;
+  padding-bottom: 58px;
+  width: 502px;
+  height: 502px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.offer-image {
+  position: absolute;
+  bottom: 78px;
+  left: 60px;
 }
 .offer-subtitle {
   max-width: 500px;
