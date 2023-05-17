@@ -1,248 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>foodsta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>foodsta</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
+  <body>
+    <!-- Header САША -->
+    <header>
+      <a href=""><img src="./images/logo-foodsta.svg" alt="" /></a>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="button" data-modal-open>Order Now</button>
+    </header>
 
-<body>
-
-  <!-- Header САША -->
-  <header>
-    <a href=""><img src="./images/logo-foodsta.svg" alt="" /></a>
-    <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav>
-    <button type="button" data-modal-open>Order Now</button>
-  </header>
-
-  <main>
-
-    <!-- Hero ДИМА -->
-
-    <section>
-      <div class="hero-div container">
-        <div class="hero-div-info">
-          <h1 class="main-title">Enjoy Your Favorite Food From Anywhere</h1>
-          <p class="section-text">
-            With just a few clicks, you can have your favorite meals delivered
-            straight to your doorstep, no matter where you are. Order now and
-            enjoy a hassle-free and delicious meal from the comfort of your own
-            home.
-          </p>
-          <button class="modal-btn" type="button" data-modal-open>Order Now</button>
-        </div>
-        <div class="hero-div-img">
-          <img class="hero-image" src="./images/hero/hero.jpg" alt="error foto" />
-        </div>
-      </div>
-    </section>
-
-    <!-- Offerings ОКСАНА Л.-->
-
-    <section class="offer-section">
-      <div class="container offer-container">
-        <div> <img class="offer-image" src="./images/offerings/apple.jpg" alt="aplle" width="396" height="502" /></div>
-        <div class="offerings">
-          <div class="offer-subtitle">
-            <h2 class="section-title">What’s Special About Our Offerings</h2>
+    <main>
+      <!-- Hero ДИМА -->
+      <section>
+        <div class="hero-div container">
+          <div class="hero-div-info">
+            <h1 class="main-title">Enjoy Your Favorite Food From Anywhere</h1>
             <p class="section-text">
-              With our platform, you can browse through a diverse selection of
-              cuisines and local restaurants, and choose from a variety of dishes
-              that cater to your specific taste buds.
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
             </p>
+            <button class="modal-btn" type="button" data-modal-open>
+              Order Now
+            </button>
           </div>
-          <ul class="offerings-list">
-            <li class="offering-item list">
-              <h3 class="section-subtitle">Fasest Delivery</h3>
-              <p class="offer-text">
-                Our advanced logistics system and dedicated delivery partners
-                ensure that your meals are delivered to you within 30-minutes.
+          <!-- cлайдер -->
+          <div class="hero-div-img sim-slider">
+            <ul class="sim-slider-list list-img">
+              <li class="sim-slider-element">
+                <div class="hero-div-img-three">
+                  <img
+                    class="hero-three-img"
+                    src="./images/hero/hero-three.jpg"
+                    alt="error foto"
+                  />
+                </div>
+              </li>
+
+              <li class="sim-slider-element">
+                <div class="hero-div-img-two">
+                  <img
+                    class="hero-two-img"
+                    src="./images/hero/hero-two.jpg"
+                    alt="error foto"
+                  />
+                </div>
+              </li>
+
+              <li class="sim-slider-element">
+                <div class="hero-div-img-one">
+                  <img
+                    class="hero-image"
+                    src="./images/hero/hero.jpg"
+                    alt="error foto"
+                  />
+                </div>
+              </li>
+            </ul>
+            <div class="sim-slider-arrow-right">
+              <button type="submit" class="button-left">
+                <svg width="38" height="30">
+                  <use href="./images/foodsta-icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="sim-slider-arrow-left">
+              <button type="button" class="button-right">
+                <svg width="38" height="30">
+                  <use href="./images/foodsta-icons.svg#icon-arrow-left"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Offerings ОКСАНА Л.-->
+
+      <section class="offer-section">
+        <div class="container offer-container">
+          <div>
+            <img
+              class="offer-image"
+              src="./images/offerings/apple.jpg"
+              alt="aplle"
+              width="396"
+              height="502"
+            />
+          </div>
+          <div class="offerings">
+            <div class="offer-subtitle">
+              <h2 class="section-title">What’s Special About Our Offerings</h2>
+              <p class="section-text">
+                With our platform, you can browse through a diverse selection of
+                cuisines and local restaurants, and choose from a variety of
+                dishes that cater to your specific taste buds.
               </p>
+            </div>
+            <ul class="offerings-list">
+              <li class="offering-item list">
+                <h3 class="section-subtitle">Fasest Delivery</h3>
+                <p class="offer-text">
+                  Our advanced logistics system and dedicated delivery partners
+                  ensure that your meals are delivered to you within 30-minutes.
+                </p>
+              </li>
+              <li class="offering-item list">
+                <h3 class="section-subtitle">Easy To Order</h3>
+                <p class="offer-text">
+                  You can browse through a wide variety of cuisines and
+                  restaurants, select your favorite meals, and place your order
+                  in just a few clicks.
+                </p>
+              </li>
+            </ul>
+
+            <button class="offer-button" type="button" data-modal-open>
+              Order Now
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Favorites СВІТЛАНА-->
+
+      <section class="favorites">
+        <h2 class="favorites-title">Some of Our Favorites</h2>
+        <p class="favorites-text">Looking for something delicious?</p>
+        <ul class="favorites-item">
+          <li class="favorites-list">
+            <img
+              class="favorites-pic"
+              src="./images/favorites/gamburger.jpg"
+              alt="Gamburger"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li class="favorites-list">
+            <img
+              class="favorites-pic"
+              src="./images/favorites/pasta.jpg"
+              alt="Pasta"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li class="favorites-list">
+            <img
+              class="favorites-pic"
+              src="./images/favorites/pizza.jpg"
+              alt="Pizza"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li class="favorites-list">
+            <img
+              class="favorites-pic"
+              src="./images/favorites/chicken.jpg"
+              alt="Chicken"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li class="favorites-list">
+            <img
+              class="favorites-pic"
+              src="./images/favorites/salat.jpg"
+              alt="Salat"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li class="favorites-list">
+            <img
+              class="favorites-pic"
+              src="./images/favorites/borshch.jpg"
+              alt="Borshch"
+              width="315"
+              height="315"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <!-- Customers Say АСЯ-->
+
+      <section class="customers">
+        <div class="container">
+          <h2 class="section-title">What our Customers Say</h2>
+          <p class="section-text text-customers">
+            Don't just take our word for it - see what our satisfied customers
+            have to say
+          </p>
+          <ul class="customers-list list">
+            <li class="customers-item">
+              <div class="blok-item-customers">
+                <p class="section-text customers-section-text">
+                  “The Best app I have used to order food in a while, so many
+                  options to choose from too, I would recommend to a freind, No
+                  questions asked”
+                </p>
+                <div class="person-customers">
+                  <img
+                    class="customers-image"
+                    src="./images/customers/man.jpg"
+                    alt="photo of man Sumith Shah"
+                    width="48"
+                    height="48"
+                  />
+                  <div class="name-person">
+                    <h3 class="section-subtitle">Sumith Shah</h3>
+                    <p class="section-text">Some Dude</p>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li class="offering-item list">
-              <h3 class="section-subtitle">Easy To Order</h3>
-              <p class="offer-text">
-                You can browse through a wide variety of cuisines and restaurants,
-                select your favorite meals, and place your order in just a few
-                clicks.
-              </p>
+            <li class="customers-item">
+              <div class="blok-item-customers">
+                <p class="section-text customers-section-text">
+                  “The ease with which I can just go in and order what i want
+                  was amazing, It has been a very pleasant experience ordering
+                  from this app”
+                </p>
+                <div class="person-customers">
+                  <img
+                    class="customers-image"
+                    src="./images/customers/woman.jpg"
+                    alt="photo of woman Jessi Jess"
+                    width="48"
+                    height="48"
+                  />
+                  <div class="name-person">
+                    <h3 class="section-subtitle">Jessi Jess</h3>
+                    <p class="section-text">Some girl</p>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
+        </div>
+      </section>
 
-          <button class="offer-button" type="button" data-modal-open>Order Now</button>
+      <!-- Subscribe ІРИНА-->
+
+      <section>
+        <h2 class="section-title">Subscribe To Get Special Offers</h2>
+        <p class="section-text">
+          Order now and receive 10% off your first meal with Enjoy Your Favorite
+          Food From Anywhere.
+        </p>
+        <button class="modal-btn" type="button"></button>
+        <img
+          class="subscribe-image"
+          src="./images/subscribe/banana.jpg"
+          alt="banana"
+          width="608"
+          height="266"
+        />
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <!-- Footer Частина 1  ОКСАНА М. -->
+      <div class="footer-container container">
+        <div class="footer-primary-part">
+          <nav class="menu-nav-footer">
+            <a class="logotype" href="./index.html">
+              <img
+                class="logo-image"
+                src="./images/logo-foodsta.svg"
+                alt="logotype"
+                width="66"
+                height="52"
+            /></a>
+            <ul class="menu list">
+              <li class="menu-item">
+                <a class="menu-link link" href="./index.html">Home</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link link" href="">About</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link link" href="">Service</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link link" href="">Menu</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link link" href="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="terms-list list">
+            <li class="terms-item">
+              <a class="terms-link" href="">Privacy Policy</a>
+            </li>
+            <li class="terms-item">
+              <a class="terms-link" href="">Terms of Service</a>
+            </li>
+            <li class="terms-item">
+              <a class="terms-link" href="">Cookies Settings</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Footer Частина 2  ІЛЛЯ -->
+        <div class="footer-subscribe">
+          <h3 class="footer-title section-title">Subscribe</h3>
+          <button class="footer-modal-btn modal-btn" type="button">
+            Subscribe
+          </button>
+          <p class="text-footer section-text">
+            By subscribing you agree to with our
+            <a class="footer-link link" href="">Privacy Policy</a>
+          </p>
+          <p class="paragraph-footer section-text">
+            2022 FoodSta. All right reserved.
+          </p>
         </div>
       </div>
-    </section>
+    </footer>
 
-    <!-- Favorites СВІТЛАНА-->
-
-    <section class="favorites">
-      <h2 class="favorites-title">Some of Our Favorites</h2>
-      <p class="favorites-text">Looking for something delicious? </p>
-      <ul class="favorites-item">
-        <li class="favorites-list">
-          <img class="favorites-pic" src="./images/favorites/gamburger.jpg" alt="Gamburger" width="315" height="315">
-        </li>
-        <li class="favorites-list">
-          <img class="favorites-pic" src="./images/favorites/pasta.jpg" alt="Pasta" width="315" height="315">
-        </li>
-        <li class="favorites-list">
-          <img class="favorites-pic" src="./images/favorites/pizza.jpg" alt="Pizza" width="315" height="315">
-        </li>
-        <li class="favorites-list">
-          <img class="favorites-pic" src="./images/favorites/chicken.jpg" alt="Chicken" width="315" height="315">
-        </li>
-        <li class="favorites-list">
-          <img class="favorites-pic" src="./images/favorites/salat.jpg" alt="Salat" width="315" height="315">
-        </li>
-        <li class="favorites-list">
-          <img class="favorites-pic" src="./images/favorites/borshch.jpg" alt="Borshch" width="315" height="315">
-        </li>
-      </ul>
-    </section>
-
-
-    <!-- Customers Say АСЯ-->
-
-    <section class="customers">
-      <div class="container">
-        <h2 class="section-title">What our Customers Say</h2>
-        <p class="section-text text-customers">
-          Don't just take our word for it - see what our satisfied customers
-          have to say
-        </p>
-        <ul class="customers-list list">
-          <li class="customers-item">
-            <div class="blok-item-customers">
-              <p class="section-text customers-section-text">
-                “The Best app I have used to order food in a while, so many
-                options to choose from too, I would recommend to a freind, No
-                questions asked”
-              </p>
-              <div class="person-customers">
-                <img class="customers-image" src="./images/customers/man.jpg" alt="photo of man Sumith Shah" width="48"
-                  height="48" />
-                <div class="name-person">
-                  <h3 class="section-subtitle">Sumith Shah</h3>
-                  <p class="section-text">Some Dude</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="customers-item">
-            <div class="blok-item-customers">
-              <p class="section-text customers-section-text">
-                “The ease with which I can just go in and order what i want
-                was amazing, It has been a very pleasant experience ordering
-                from this app”
-              </p>
-              <div class="person-customers">
-                <img class="customers-image" src="./images/customers/woman.jpg" alt="photo of woman Jessi Jess"
-                  width="48" height="48" />
-                <div class="name-person">
-                  <h3 class="section-subtitle">Jessi Jess</h3>
-                  <p class="section-text">Some girl</p>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-
-
-    <!-- Subscribe ІРИНА-->
-
-    <section>
-      <h2 class="section-title">Subscribe To Get Special Offers</h2>
-      <p class="section-text">
-        Order now and receive 10% off your first meal with Enjoy Your Favorite
-        Food From Anywhere.
-      </p>
-      <button class="modal-btn" type="button"></button>
-      <img class="subscribe-image" src="./images/subscribe/banana.jpg" alt="banana" width="608" height="266" />
-    </section>
-  </main>
-
-  <footer class="footer-section">
-
-    <!-- Footer Частина 1  ОКСАНА М. -->
-    <div class="footer-container container">
-      <div class="footer-primary-part">
-        <nav class="menu-nav-footer">
-          <a class="logotype" href="./index.html">
-            <img class="logo-image" src="./images/logo-foodsta.svg" alt="logotype" width="66" height="52"></a>
-          <ul class="menu list">
-            <li class="menu-item"><a class="menu-link link" href="./index.html">Home</a></li>
-            <li class="menu-item"><a class="menu-link link" href="">About</a></li>
-            <li class="menu-item"><a class="menu-link link" href="">Service</a></li>
-            <li class="menu-item"><a class="menu-link link" href="">Menu</a></li>
-            <li class="menu-item"><a class="menu-link link" href="">Contact</a></li>
-
-          </ul>
-        </nav>
-
-
-        <ul class="terms-list list">
-          <li class="terms-item"><a class="terms-link" href="">Privacy Policy</a></li>
-          <li class="terms-item"><a class="terms-link" href="">Terms of Service</a></li>
-          <li class="terms-item"><a class="terms-link" href="">Cookies Settings</a></li>
-        </ul>
-      </div>
-
-      <!-- Footer Частина 2  ІЛЛЯ -->
-      <div class="footer-subscribe">
-        <h3 class="footer-title section-title">Subscribe</h3>
-        <button class="footer-modal-btn modal-btn" type="button">Subscribe</button>
-        <p class="text-footer section-text">By subscribing you agree to with our <a class="footer-link link"
-            href="">Privacy
-            Policy</a></p>
-        <p class="paragraph-footer section-text">2022 FoodSta. All right reserved.</p>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          <svg class="modal-close-btn-icon">
+            <use href=""></use>
+          </svg>
+        </button>
       </div>
     </div>
 
-  </footer>
+    <!-- MODAL SCRIPT -->
 
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <button class="modal-close-btn" type="button" data-modal-close>
-        <svg class="modal-close-btn-icon">
-          <use href=""></use>
-        </svg>
-      </button>
-    </div>
-  </div>
+    <script src="./js/modal.js"></script>
 
-  <!-- MODAL SCRIPT -->
+    <!-- SLIDER SCRIPT -->
 
-  <script src="./js/modal.js"></script>
-
-  <!-- SLIDER SCRIPT -->
-
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="./js/slider.js"></script>
-
-</body>
-
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/slider.js"></script>
+  </body>
 </html>

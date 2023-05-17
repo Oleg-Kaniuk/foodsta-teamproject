@@ -118,9 +118,88 @@ address {
 .modal-btn:focus {
   background-color: var(--secondary-accent-color);
 }
+.hero-div-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 608px;
+}
 .hero-image {
   border: 26px solid #ffe550;
   border-radius: 50%;
+}
+.hero-two-img {
+  position: absolute;
+  top: 0;
+  left: 14px;
+  border: 26px solid #ffe550;
+  border-radius: 50%;
+  width: 580px;
+}
+.hero-three-img {
+  position: absolute;
+  top: 0;
+  left: 14px;
+  border: 26px solid #ffe550;
+  border-radius: 50%;
+  width: 580px;
+}
+.hero-div-img-one {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 608px;
+}
+.hero-div-img-two,
+.hero-div-img-three {
+  display: flex;
+  justify-content: center;
+  width: 608px;
+}
+.button-left {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 48px;
+  height: 40px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #fefefe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 0;
+}
+.button-right {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 48px;
+  height: 40px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: #fefefe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 0;
+}
+.button-right:focus,
+.button-right:hover,
+.button-left:focus,
+.button-left:hover {
+  fill: #7eb101;
+}
+
+.list-img {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+div.sim-slider-arrow-left:hover {
+  opacity: 1;
+}
+
+div.sim-slider-arrow-right:hover {
+  opacity: 1;
 }
 /* offerings Oksana */
 
