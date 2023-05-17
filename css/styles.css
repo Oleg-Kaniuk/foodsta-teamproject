@@ -278,7 +278,7 @@ address {
 */
 
 .footer-section {
-  max-width 1280pх;
+  max-width: 1280pх;
   padding-top: 100px;
   padding-bottom: 100px;
   background-image: url(../images/footer/fruit-footer.jpg);
