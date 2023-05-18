@@ -290,7 +290,6 @@ address {
 
 .footer-container {
   display: flex;
-  
 }
 
 .menu-nav-footer {
@@ -311,12 +310,10 @@ address {
   display: inline-block;
   padding-bottom: 18px;
   padding-top: 18px;
- 
   font-size: 14px;
   line-height: 1.14;
   color: var(--primary-text-color);
 }
-
 
 .menu-link:hover,
 .menu-link:focus {
