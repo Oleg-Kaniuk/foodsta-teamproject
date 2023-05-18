@@ -248,7 +248,13 @@ address {
   max-width: 501px;
   border-radius: 0 30px 30px 30px;
   background-color: var(--main-background-color);
+  transition: transform var(--transition-dur-and-func);
 }
+
+.customers-item:hover {
+  transform: scale(1.05);
+}
+
 .stars-customers {
   display: flex;
   gap: 4px;
@@ -258,6 +264,7 @@ address {
 .img-star {
   fill: #ffe550;
 }
+
 .blok-item-customers {
   padding: 14px;
 }
@@ -302,9 +309,9 @@ address {
 }
 
 .customers-image {
-  margin-right: 16px;
-  margin: 2px 0;
+  margin: 2px 16px 2px 0;
 }
+
 /*
 
 
