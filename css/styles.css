@@ -125,20 +125,21 @@ address {
 /* offerings Oksana */
 
 .offer-section {
-  margin-top: -260px;
-  padding-top: 99px;
-  padding-bottom: 79px;
+  margin-top: -161px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1258px;
+  background-image: url(../images/offerings/offerings-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .offer-container {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 230px;
+  padding-top: 260px;
   padding-bottom: 78px;
-  background-image: url(../images/offerings/offerings-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .offerings {
   margin-left: 90px;
@@ -169,7 +170,19 @@ address {
 .offering-item {
   width: 253px;
 }
-
+.offer-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.offer-icon {
+  fill: var(--secondary-text-color);
+}
 .offer-text {
   margin-top: 16px;
   font-size: 14px;
@@ -186,6 +199,7 @@ address {
   border: 2px solid var(--secondary-text-color);
   border-radius: 30px;
   background-color: #ffffff;
+  transform: var(--transition-dur-and-func);
 }
 .offer-button:hover,
 .offer-button:focus {
