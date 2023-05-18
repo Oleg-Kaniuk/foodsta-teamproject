@@ -222,17 +222,24 @@ address {
 /* Customers */
 
 .customers {
-  background-color: #ffe550;
+  max-width: 1280px;
+  max-height: 647px;
+  margin: 0 auto;
+
   padding-top: 100px;
   padding-bottom: 200px;
+  background-image: url(../images/customers/customers-background.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
 }
+
 .text-customers {
   margin-bottom: 32px;
 }
 
 .customers-list {
   display: flex;
-  gap: 123px;
+  gap: 139px;
 }
 
 .customers-item {
@@ -240,16 +247,23 @@ address {
   border-radius: 0 30px 30px 30px;
   background-color: var(--main-background-color);
 }
+.stars-customers {
+  gap: 4px;
+  margin-bottom: 28px;
+}
 
+.img-star {
+  fill: #ffe550;
+}
 .blok-item-customers {
-  padding: 14px;
+  padding: 14px 14px 16px 14px;
 }
 .customers-section-text {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
 
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 .person-customers {
   display: flex;
@@ -264,6 +278,7 @@ address {
 .name-person > p {
   font-size: 14px;
   line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .customers-image {
@@ -290,7 +305,6 @@ address {
 
 .footer-container {
   display: flex;
-  
 }
 
 .menu-nav-footer {
@@ -311,12 +325,11 @@ address {
   display: inline-block;
   padding-bottom: 18px;
   padding-top: 18px;
- 
+
   font-size: 14px;
   line-height: 1.14;
   color: var(--primary-text-color);
 }
-
 
 .menu-link:hover,
 .menu-link:focus {
