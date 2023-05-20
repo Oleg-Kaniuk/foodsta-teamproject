@@ -244,57 +244,97 @@ address {
 /* Customers */
 
 .customers {
-    background-color: #ffe550;
-    padding-top: 100px;
-    padding-bottom: 200px;
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-image: url(../images/customers/customers-background.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .text-customers {
-    margin-bottom: 32px;
+  line-height: 1.17;
+  margin-bottom: 32px;
 }
 
 .customers-list {
-    display: flex;
-    gap: 123px;
+  display: flex;
+  gap: 139px;
 }
 
 .customers-item {
-    max-width: 501px;
-    border-radius: 0 30px 30px 30px;
-    background-color: var(--main-background-color);
+  max-width: 501px;
+  border-radius: 0 30px 30px 30px;
+  background-color: var(--main-background-color);
+  transition: transform var(--transition-dur-and-func);
+}
+
+.customers-item:hover {
+  transform: scale(1.05);
+}
+
+.stars-customers {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 28px;
+}
+
+.img-star {
+  fill: #ffe550;
 }
 
 .blok-item-customers {
     padding: 14px;
 }
 
+
 .customers-section-text {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 
 .person-customers {
     display: flex;
 }
 
-.name-person>h3 {
-    margin-bottom: 2px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.5;
+.person-customers::after {
+  content: "";
+  display: block;
+  position: relative;
+
+  top: 26px;
+  left: 0;
+  transform: rotate(90deg);
+  width: 52px;
+  height: 1px;
+  background-color: var(--secondary-text-color);
 }
 
-.name-person>p {
-    font-size: 14px;
-    line-height: 1.5;
+.name-person {
+  margin-right: 16px;
+}
+
+.name-person > h3 {
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.name-person > p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .customers-image {
-    margin-right: 16px;
+  margin: 2px 16px 2px 0;
 }
-
 
 /*
 
@@ -376,7 +416,6 @@ address {
     color: var(--placeholder-color);
 }
 
-
 /*
 
 
@@ -386,8 +425,15 @@ address {
 */
 
 .footer-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+
+  max-width: 1280px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(../images/footer/fruit-footer.jpg);
+  background-repeat: no-repeat;
+  background-position: 53px bottom;
+  background-size: 1211px 266px;
+  box-shadow: 0px -4px 24px rgba(105, 105, 105, 0.1);
 }
 
 .footer-container {
@@ -409,15 +455,21 @@ address {
 }
 
 .menu-link {
-    display: inline-block;
-    padding-bottom: 18px;
-    padding-top: 18px;
+  display: inline-block;
+  padding-bottom: 18px;
+  padding-top: 18px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
 }
 
-.menu-link {
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--primary-text-color);
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--primary-accent-color);
+  font-weight: 700;
+  text-decoration-line: underline;
+  transition: var(--transition-dur-and-func);
 }
 
 .terms-list {
