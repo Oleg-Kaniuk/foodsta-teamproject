@@ -70,13 +70,15 @@
 
       <section class="offer-section">
         <div class="container offer-container">
-          <div class="offer-thumba">
-            <img
-              class="offer-image"
-              src="./images/offerings/aple.png"
-              alt="aplle"
-              width="396"
-              height="502" />
+          <div class="aple-border">
+            <div class="offer-thumba">
+              <img
+                class="offer-image"
+                src="./images/offerings/aple.png"
+                alt="aplle"
+                width="396"
+                height="502" />
+            </div>
           </div>
           <div class="offerings">
             <div class="offer-subtitle">
@@ -316,13 +318,44 @@
       </div>
     </footer>
 
+    <!-- modal window -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
-          <svg class="modal-close-btn-icon">
-            <use href=""></use>
+          <svg class="modal-close-btn-icon" width="11" height="11">
+            <use href="./images/foodsta-icons.svg#icon-btn-close"></use>
           </svg>
         </button>
+
+        <!-- modal form -->
+        <p class="modal-title">Order Form</p>
+        <form class="modal-form" action="">
+          <label class="modal-lable" for="">
+            Name<input
+              class="modal-input"
+              type="text"
+              name="name"
+              placeholder="Your name"
+              minlength="3"
+              maxlength="25"
+          /></label>
+          <label class="modal-lable" for=""
+            >Phone Number<input
+              class="modal-input"
+              type="text"
+              name="phone"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+          /></label>
+          <label class="modal-lable" for=""
+            >E-mail<input
+              class="modal-input"
+              type="text"
+              name="mail"
+              placeholder="example@gmail.com"
+          /></label>
+          <button class="offer-button modal-btn" type="submit">Send</button>
+        </form>
       </div>
     </div>
 
