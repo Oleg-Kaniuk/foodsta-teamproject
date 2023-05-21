@@ -148,43 +148,43 @@ address {
 */
 
 .favorites {
-	padding: 100px 0;
+  padding: 100px 0;
 }
 .favorites-title {
-	text-align: center;
-	line-height: 1.17;
+  text-align: center;
+  line-height: 1.17;
 }
 .favorites-text {
-	line-height: 1.19;
-	text-align: center;
-	margin-bottom: 40px;
+  line-height: 1.19;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .favorites-item {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	row-gap: 32px;
-	column-gap: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 32px;
+  column-gap: 32px;
 }
 .favorites-list {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	padding: 24px 23px 24px 24px;
-	border: 16px solid #FFE550;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 24px 23px 24px 24px;
+  border: 16px solid #ffe550;
 }
 .favorites-list:hover,
 .favorites-list:focus {
-	border: 16px solid var(--primary-accent-color);
+  border: 16px solid var(--primary-accent-color);
 }
 .favorit-link {
-	display: block;
+  display: block;
 }
 .favorites-pic {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 /*
@@ -240,7 +240,7 @@ address {
   line-height: 1.16;
   color: var(--secondary-text-color);
 }
- 
+
 /* footer ilya */
 .footer-title.section-title {
   font-style: normal;
@@ -269,7 +269,7 @@ address {
   margin-bottom: 12px;
 }
 .footer-modal-btn:hover,
-.footer-modal-btn:focus{
+.footer-modal-btn:focus {
   background-color: var(--primary-accent-color);
 }
 .footer-subscribe {
@@ -279,12 +279,27 @@ address {
   flex-direction: column;
 }
 .text-footer.section-text {
-     font-size: 12px;
-     line-height: 14px;
-     margin-bottom: 80px;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 80px;
 }
 .paragraph-footer.section-text {
-   font-size: 12px;
-   line-height: 14px;
-   margin-left: auto;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: auto;
+}
+.form-footer {
+  display: flex;
+}
+.modal-form-label-email {
+  width: 277px;
+  margin-right: 13px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 0;
+  border: 1px solid #ffe550;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #505050;
 }
