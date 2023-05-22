@@ -63,11 +63,13 @@ address {
 }
 
 .modal-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 13px;
   line-height: 1.54;
   border-radius: 30px;
   color: var(--primary-text-color);
+  cursor: pointer;
 }
 
 .section-title {
@@ -88,6 +90,76 @@ address {
   font-size: 18px;
   line-height: 1.39;
   color: var(--primary-text-color);
+}
+
+/* ===========================================================
+============================= HEADER =========================
+============================================================== */
+
+.header-page {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fefefe;
+  box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+}
+
+.menu-header-item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.menu-header-item:last-child {
+  margin-right: 30px;
+}
+
+.menu-header-link {
+  display: inline-block;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.modal-btn.light {
+  padding: 6px 18px;
+  background-color: var(--primary-accent-color);
+  border: none;
+}
+
+.modal-btn.light:hover,
+.modal-btn.light:focus {
+  background-color: var(--secondary-accent-color);
+}
+
+.menu-header .link {
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--primary-text-color);
+}
+
+.menu-header .link:hover,
+.menu-header .link:focus {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration-line: underline;
+
+  color: var(--primary-accent-color);
 }
 
 /* hero dima */
@@ -114,14 +186,14 @@ address {
   margin-bottom: 40px;
 }
 
-.modal-btn {
+.hero-btn {
   background: var(--primary-accent-color);
   padding: 6px 18px;
   border: none;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--secondary-accent-color);
 }
 
@@ -460,6 +532,7 @@ div.sim-slider-arrow-right:hover {
   padding-left: 22px;
   padding-right: 22px;
   min-width: 103px;
+  border: none;
   background: var(--primary-accent-color);
   transition: background-color var(--transition-dur-and-func);
 }
