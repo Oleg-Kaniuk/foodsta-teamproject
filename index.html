@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>foodsta</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -50,23 +51,71 @@
 
         <main>
             <!-- Hero ДИМА -->
+      <section>
+        <div class="hero-div container">
+          <div class="hero-div-info">
+            <h1 class="main-title">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="section-text section-text-p">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
+            </p>
 
-            <section>
-                <div class="hero-div container">
-                    <div class="hero-div-info">
-                        <h1 class="main-title">Enjoy Your Favorite Food From Anywhere</h1>
-                        <p class="section-text">
-                            With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.
-                        </p>
-                        <button class="modal-btn" type="button" data-modal-open>
-            Order Now
-          </button>
-                    </div>
-                    <div class="hero-div-img">
-                        <img class="hero-image" src="./images/hero/hero.jpg" alt="error foto" />
-                    </div>
+            <button class="modal-btn" type="button" data-modal-open>
+              Order Now
+            </button>
+          </div>
+          <!-- cлайдер -->
+          <div class="hero-div-img sim-slider">
+            <ul class="sim-slider-list list-img">
+              <li class="sim-slider-element">
+                <div class="hero-div-img-three">
+                  <img
+                    class="hero-three-img"
+                    src="./images/hero/hero-three.jpg"
+                    alt="error foto"
+                  />
                 </div>
-            </section>
+              </li>
+
+              <li class="sim-slider-element">
+                <div class="hero-div-img-two">
+                  <img
+                    class="hero-two-img"
+                    src="./images/hero/hero-two.jpg"
+                    alt="error foto"
+                  />
+                </div>
+              </li>
+
+              <li class="sim-slider-element">
+                <div class="hero-div-img-one">
+                  <img
+                    class="hero-image"
+                    src="./images/hero/hero.jpg"
+                    alt="error foto"
+                  />
+                </div>
+              </li>
+            </ul>
+            <div class="sim-slider-arrow-right">
+              <button type="submit" class="button-left">
+                <svg width="38" height="30">
+                  <use href="./images/foodsta-icons.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="sim-slider-arrow-left">
+              <button type="button" class="button-right">
+                <svg width="38" height="30">
+                  <use href="./images/foodsta-icons.svg#icon-arrow-left"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
             <!-- Offerings ОКСАНА Л.-->
 
@@ -317,3 +366,4 @@
     </body>
 
 </html>
+
