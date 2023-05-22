@@ -138,6 +138,8 @@ address {
   padding: 6px 18px;
   background-color: var(--primary-accent-color);
   border: none;
+
+  transition: background-color var(--transition-dur-and-func);
 }
 
 .modal-btn.light:hover,
@@ -150,13 +152,15 @@ address {
   line-height: 1.14;
 
   color: var(--primary-text-color);
+
+  transition: color var(--transition-dur-and-func),
+    font-weight var(--transition-dur-and-func),
+    text-decoration-line var(--transition-dur-and-func);
 }
 
 .menu-header .link:hover,
 .menu-header .link:focus {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   text-decoration-line: underline;
 
   color: var(--primary-accent-color);
