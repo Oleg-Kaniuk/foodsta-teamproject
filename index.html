@@ -21,6 +21,8 @@
       rel="stylesheet"
       type="text/css"
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -39,7 +41,6 @@
       </nav>
       <button type="button" data-modal-open>Order Now</button>
     </header>
-
     <main>
       <!-- Hero ДИМА -->
 
@@ -109,6 +110,7 @@
                     <use href="./images/foodsta-icons.svg#icon-touch"></use>
                   </svg>
                 </div>
+                
                 <h3 class="section-subtitle">Easy To Order</h3>
                 <p class="offer-text">
                   You can browse through a wide variety of cuisines and
@@ -194,7 +196,30 @@
           <ul class="customers-list list">
             <li class="customers-item">
               <div class="blok-item-customers">
-                <p class="section-text customers-section-text">
+                <div class="stars-customers">
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                </div>
+                
+                 <p class="section-text customers-section-text">
                   “The Best app I have used to order food in a while, so many
                   options to choose from too, I would recommend to a freind, No
                   questions asked”
@@ -205,7 +230,8 @@
                     src="./images/customers/man.jpg"
                     alt="photo of man Sumith Shah"
                     width="48"
-                    height="48" />
+                    height="48"
+                  />
                   <div class="name-person">
                     <h3 class="section-subtitle">Sumith Shah</h3>
                     <p class="section-text">Some Dude</p>
@@ -215,6 +241,28 @@
             </li>
             <li class="customers-item">
               <div class="blok-item-customers">
+                <div class="stars-customers">
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                  <svg class="img-star" width="17" height="16">
+                    <use href="./images/foodsta-icons.svg#icon-star"></use>
+                    >
+                  </svg>
+                </div>
                 <p class="section-text customers-section-text">
                   “The ease with which I can just go in and order what i want
                   was amazing, It has been a very pleasant experience ordering
@@ -226,7 +274,8 @@
                     src="./images/customers/woman.jpg"
                     alt="photo of woman Jessi Jess"
                     width="48"
-                    height="48" />
+                    height="48"
+                  />
                   <div class="name-person">
                     <h3 class="section-subtitle">Jessi Jess</h3>
                     <p class="section-text">Some girl</p>
@@ -238,22 +287,25 @@
         </div>
       </section>
 
-      <!-- Subscribe ІРИНА-->
+        <!-- Subscribe ІРИНА-->
 
-      <section>
-        <h2 class="section-title">Subscribe To Get Special Offers</h2>
-        <p class="section-text">
-          Order now and receive 10% off your first meal with Enjoy Your Favorite
-          Food From Anywhere.
-        </p>
-        <button class="modal-btn" type="button"></button>
-        <img
-          class="subscribe-image"
-          src="./images/subscribe/banana.jpg"
-          alt="banana"
-          width="608"
-          height="266" />
-      </section>
+        <section class="container">
+            <div class="subscribe-section">
+                <div class="subscribe-part">
+                    <h2 class="subscribe-section-title">Subscribe To Get Special Offers</h2>
+                    <p class="subscribe-section-text">
+                        Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere.
+                    </p>
+                    <div class="subscribe-form">
+                        <form>
+                            <input type="email" placeholder="Enter your email" class="subscribe-form-input">
+                        </form>
+                        <button class="subscribe-modal-btn" type="button">Subscribe</button>
+                    </div>
+                </div>
+                <img class="subscribe-image" src="./images/subscribe/banana.jpg" alt="banana" width="608" height="266" />
+            </div>
+        </section>
     </main>
 
     <footer class="footer-section">
@@ -318,6 +370,7 @@
       </div>
     </footer>
 
+
     <!-- modal window -->
 
     <div class="backdrop is-hidden" data-modal>
@@ -356,6 +409,7 @@
           /></label>
           <button class="offer-button modal-btn" type="submit">Send</button>
         </form>
+
       </div>
     </div>
 
@@ -374,6 +428,7 @@
     <script
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      
     <script src="./js/slider.js"></script>
   </body>
 </html>
