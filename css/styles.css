@@ -477,6 +477,7 @@ div.sim-slider-arrow-right:hover {
 
 .subscribe-form-input {
   width: 395px;
+  height: 42px;
   padding-top: 12px;
   padding-bottom: 12px;
   border: 0.854167px solid var(--secondary-accent-color);
