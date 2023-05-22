@@ -274,6 +274,9 @@ div.sim-slider-arrow-right:hover {
 
 .favorites {
   padding: 100px 0;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .favorites-title {
@@ -301,8 +304,9 @@ div.sim-slider-arrow-right:hover {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  padding: 24px 23px 24px 24px;
+  padding: 26px 24px 26px 25px;
   border: 16px solid #ffe550;
+  transition: border var(--transition-dur-and-func);
 }
 
 .favorites-list:hover,
@@ -543,6 +547,9 @@ div.sim-slider-arrow-right:hover {
   font-size: 14px;
   line-height: 1.14;
   color: var(--primary-text-color);
+  transition: color var(--transition-dur-and-func),
+    font-weight var(--transition-dur-and-func),
+    text-decoration-line var(--transition-dur-and-func);
 }
 
 .menu-link:hover,
@@ -550,7 +557,6 @@ div.sim-slider-arrow-right:hover {
   color: var(--primary-accent-color);
   font-weight: 700;
   text-decoration-line: underline;
-  transition: var(--transition-dur-and-func);
 }
 
 .terms-list {
