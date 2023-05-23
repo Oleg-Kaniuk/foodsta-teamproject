@@ -310,5 +310,7 @@ address {
 .modal-form-label-email::placeholder {
   font-size: 12px;
   line-height: 1.5;
+  padding-top: 0;
+  padding-bottom: 0;
   color: var(--placeholder-color);
 }
