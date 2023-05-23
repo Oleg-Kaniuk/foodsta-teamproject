@@ -267,6 +267,7 @@ address {
   line-height: 20px;
   margin-left: auto;
   margin-bottom: 12px;
+  transition: background-color var(--transition-dur-and-func);
 }
 .footer-modal-btn:hover,
 .footer-modal-btn:focus {
@@ -310,7 +311,5 @@ address {
 .modal-form-label-email::placeholder {
   font-size: 12px;
   line-height: 1.5;
-  padding-top: 0;
-  padding-bottom: 0;
   color: var(--placeholder-color);
 }
