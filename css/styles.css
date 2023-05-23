@@ -292,14 +292,6 @@ address {
   display: flex;
 }
 .modal-form-label-email {
-  width: 277px;
-
-  /* border: 1px solid #ffe550;
-  border-radius: 30px; */
-  background-color: #ffffff;
-  color: #505050;
-}
-input {
   margin-right: 13px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -307,4 +299,16 @@ input {
   padding-right: 0;
   border: 1px solid #ffe550;
   border-radius: 30px;
+  width: 277px;
+  background-color: #ffffff;
+}
+
+.modal-form-label-email:focus {
+  outline: 0.854167px solid var(--secondary-accent-color);
+}
+
+.modal-form-label-email::placeholder {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--placeholder-color);
 }
