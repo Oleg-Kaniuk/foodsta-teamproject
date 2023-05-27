@@ -714,6 +714,7 @@ div.sim-slider-arrow-right:hover {
   padding-right: 0;
   border: 1px solid #ffe550;
   border-radius: 30px;
+  height: 42px;
   width: 277px;
   background-color: #ffffff;
 }
