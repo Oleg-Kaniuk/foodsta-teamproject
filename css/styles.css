@@ -711,11 +711,11 @@ div.sim-slider-arrow-right:hover {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 12px;
-  padding-right: 0;
+  padding-right: 61.5px;
   border: 1px solid #ffe550;
   border-radius: 30px;
   height: 42px;
-  width: 277px;
+  width: 279px;
   background-color: #ffffff;
 }
 
