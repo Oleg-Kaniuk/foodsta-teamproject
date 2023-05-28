@@ -671,18 +671,18 @@ div.sim-slider-arrow-right:hover {
 
 .footer-modal-btn {
   min-width: 103px;
-  padding: 11px 22px;
+  padding: 9px 20px;
   background-color: #ffffff;
   color: var(--primary-text-color);
   border: 2px solid var(--secondary-text-color);
   margin-left: auto;
   margin-bottom: 12px;
-  transition: background-color var(--transition-dur-and-func);
+  transition: border-color var(--transition-dur-and-func);
 }
 
 .footer-modal-btn:hover,
 .footer-modal-btn:focus {
-  background-color: var(--primary-accent-color);
+  border-color: var(--primary-accent-color);
 }
 
 .footer-subscribe {
