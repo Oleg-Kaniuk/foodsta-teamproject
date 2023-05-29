@@ -864,7 +864,7 @@ div.sim-slider-arrow-right:hover {
 
 .modal-input::placeholder {
   padding-top: 14px;
-  padding-left: 12px;
+  /* padding-left: 12px; */
 }
 .offer-button-submit {
   display: block;
