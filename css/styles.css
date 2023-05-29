@@ -295,7 +295,7 @@ div.sim-slider-arrow-right:hover {
 /* offerings Oksana */
 
 .offer-section {
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
   margin-top: -161px;
   margin-left: auto;
@@ -310,16 +310,15 @@ div.sim-slider-arrow-right:hover {
   margin-left: auto;
   margin-right: auto;
   padding-top: 260px;
-  padding-bottom: 43px;
 }
 .offerings {
   margin-left: 90px;
 }
 .aple-border {
   margin-left: 16px;
-  margin-bottom: 43px;
-  position: relative;
 
+  position: relative;
+  bottom: 43px;
   width: 550px;
   height: 550px;
   border-radius: 50%;
@@ -375,6 +374,7 @@ div.sim-slider-arrow-right:hover {
   line-height: 1.5;
 }
 .offer-button {
+  margin-bottom: 79px;
   padding: 10px 22px;
   min-width: 106px;
 
@@ -872,6 +872,15 @@ div.sim-slider-arrow-right:hover {
   margin-left: auto;
   margin-top: 8px;
   margin-bottom: 32px;
+  width: 106px;
+  height: 40px;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.offer-button-submit:hover,
+.offer-button-submit:focus {
+  background-color: var(--primary-accent-color);
 }
 .modal-lable {
   font-weight: 500;
